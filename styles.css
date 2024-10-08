@@ -1,1 +1,35 @@
-/* your code here */
+.content .top, .link-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  color: white;
+}
+
+.bottom-details{
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.link-box, .Services, .Other-services, .Contact {
+  width: 20%;
+  /* Adjust as needed for responsiveness */
+}
+
+.link-box ul, .Services ul, .Other-services ul, .Contact ul {
+  list-style-type: none;
+}
+
+.link-box a, .Services a, .Other-services a, .Contact a {
+  text-decoration: none;
+}
+.bottom-details {
+  display: flex;
+  background-color: lightgray;
+  padding: 10px;
+}
+.bottom-details {
+  text-align: right;
+  background-color: lightgray;
+  padding: 10px;
+}
